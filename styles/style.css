@@ -1,1 +1,52 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Text):         #D6D6B1      (text, contrast with dark)
+* Dark Blue (Primary):    #07004D
+* light Blue (Secondary): #007991      (canvas background)
+* dark pink (Accent):  #B098A4
+*/
+
+.bg-info {
+    background-color: #007991 !important;
+    /* light Blue for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand {
+    font-family: "Roboto Condensed", serif;
+    /*change the font name for what you have*/
+    font-size: 1.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #07004D;
+    /* Dark Blue for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #D6D6B1;
+    /* Lightest shade for text on info button for contrast */
+    background-color: #007991;
+    /* light Blue for button background */
+    border-color: #07004D;
+    /* Dark Blue for button border */
+}
+
+.btn-primary {
+    color: #D6D6B1;
+    /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #07004D;
+    /* Dark Blue for primary button background */
+    border-color: #B098A4;
+    /* dark pink for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #D6D6B1;
+    /* Lightest shade for body background to follow the 60% rule */
+}
